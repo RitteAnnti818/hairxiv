@@ -1,0 +1,38 @@
+{
+  "name": "hair-3d-archive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build",
+    "crawl": "tsx --env-file-if-exists=.env.local scripts/run.ts",
+    "crawl:dry": "tsx --env-file-if-exists=.env.local scripts/run.ts --dry",
+    "promote": "tsx scripts/promote.ts",
+    "promote:dry": "tsx scripts/promote.ts --dry",
+    "enrich": "tsx --env-file-if-exists=.env.local scripts/enrich.ts",
+    "enrich:dry": "tsx --env-file-if-exists=.env.local scripts/enrich.ts --dry",
+    "venues": "tsx --env-file-if-exists=.env.local scripts/venues.ts",
+    "venues:dry": "tsx --env-file-if-exists=.env.local scripts/venues.ts --dry",
+    "figures": "tsx --env-file-if-exists=.env.local scripts/figures.ts",
+    "figures:dry": "tsx --env-file-if-exists=.env.local scripts/figures.ts --dry",
+    "project-meta": "tsx --env-file-if-exists=.env.local scripts/project-meta.ts",
+    "project-meta:dry": "tsx --env-file-if-exists=.env.local scripts/project-meta.ts --dry"
+  },
+  "dependencies": {
+    "next": "^16.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "fast-xml-parser": "^5.6.0",
+    "openai": "^4.77.0",
+    "tsx": "^4.21.0",
+    "typescript": "5.4.5"
+  }
+}

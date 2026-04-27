@@ -1,0 +1,1620 @@
+[
+  {
+    "id": "physhead",
+    "title": "PhysHead: Simulation-Ready Gaussian Head Avatars",
+    "short": "PhysHead",
+    "authors": [
+      "Kabadayi",
+      "Sklyarova",
+      "Zielonka",
+      "Thies",
+      "Pons-Moll"
+    ],
+    "year": 2026,
+    "month": 4,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Multi-view",
+      "Simulation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2604.06467",
+    "project": "https://phys-head.github.io/",
+    "figure": "First hybrid representation for animatable head avatars with realistic hair dynamics learned from multi-view video.",
+    "abstract": "PhysHead introduces a hybrid representation for animatable head avatars that captures realistic hair dynamics, overcoming limitations of rigid hair movement in existing methods. It combines a 3D parametric mesh for the head with strand-based hair, enabling photorealistic avatars with dynamic hair behavior. The method employs Gaussian primitives for appearance modeling and proposes new training sch",
+    "figureUrl": "https://phys-head.github.io/static/images/teasercr-crop.jpg"
+  },
+  {
+    "id": "efficientmonohair",
+    "title": "EfficientMonoHair: Fast Strand-Level Reconstruction from Monocular Video via Multi-View Direction Fusion",
+    "short": "EfficientMonoHair",
+    "authors": [
+      "Li",
+      "Engel",
+      "Luo",
+      "Viola"
+    ],
+    "year": 2026,
+    "month": 4,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Strand",
+      "Monocular",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2604.05794",
+    "project": "",
+    "figure": "First fast strand-level hair reconstruction from monocular video via multi-view direction fusion",
+    "abstract": "EfficientMonoHair addresses the trade-off between accuracy and efficiency in strand-level hair geometry reconstruction. By combining implicit neural networks with multi-view geometric fusion, it achieves high-fidelity reconstructions while significantly improving runtime efficiency. The method demonstrates robust performance on real-world hairstyles and synthetic benchmarks."
+  },
+  {
+    "id": "cghair",
+    "title": "CGHair: Compact Gaussian Hair Reconstruction with Card Clustering",
+    "short": "CGHair",
+    "authors": [
+      "Luo",
+      "Sarkar",
+      "Mosella-Montoro",
+      "Carrasco",
+      "Torre"
+    ],
+    "year": 2026,
+    "month": 4,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2604.03716",
+    "project": "",
+    "figure": "First compact Gaussian hair reconstruction method using card clustering.",
+    "abstract": "CGHair introduces a compact pipeline for high-fidelity hair reconstruction from multi-view images, utilizing a clustering approach to reduce storage and rendering costs while maintaining visual quality. The method integrates structural similarities in hair with 3D Gaussian Splatting, achieving significant improvements in reconstruction time and memory usage."
+  },
+  {
+    "id": "hairorbit",
+    "title": "HairOrbit: Multi-view Aware 3D Hair Modeling from Single Portraits",
+    "short": "HairOrbit",
+    "authors": [
+      "Jin",
+      "Zheng",
+      "Tong",
+      "Qiu",
+      "Xie",
+      "Li"
+    ],
+    "year": 2026,
+    "month": 4,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2604.02867",
+    "project": "",
+    "figure": "First multi-view aware 3D hair modeling from single portraits via a novel framework leveraging video generation models.",
+    "abstract": "This paper presents HairOrbit, a framework for reconstructing strand-level 3D hair from single-view images by transforming the task into a calibrated multi-view reconstruction. It introduces a neural orientation extractor for better orientation estimation and a two-stage strand-growing algorithm for detailed 3D strand synthesis. The method achieves state-of-the-art results on diverse hair portrait"
+  },
+  {
+    "id": "one-shot-compositional-3d-head-avatars",
+    "title": "One-shot Compositional 3D Head Avatars with Deformable Hair",
+    "short": "One-shot-Compositional-3D-Head-Avatars",
+    "authors": [
+      "Sun",
+      "Wang",
+      "Zhang",
+      "Zhang",
+      "Guo",
+      "Wang"
+    ],
+    "year": 2026,
+    "month": 4,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Reconstruction",
+      "Simulation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2604.14782",
+    "project": "https://yuansun-xjtu.github.io/CompHairHead.io",
+    "figure": "First method to decouple hair from face in 3D head avatars using distinct deformation paradigms.",
+    "abstract": "This paper presents a method for creating 3D head avatars from a single image, focusing on realistic hair dynamics by decoupling hair from the facial region. It utilizes 3D Gaussian Splatting for hair representation and introduces a cage structure for realistic hair deformation during animation. The approach shows improved realism in hair behavior and facial detail preservation compared to existin"
+  },
+  {
+    "id": "fhavatar",
+    "title": "FHAvatar: Fast and High-Fidelity Reconstruction of Face-and-Hair Composable 3D Head Avatar from Few Casual Captures",
+    "short": "FHAvatar",
+    "authors": [
+      "Sun",
+      "Cai",
+      "Niu",
+      "Chen",
+      "Chen",
+      "Lv",
+      "Wu"
+    ],
+    "year": 2026,
+    "month": 3,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2603.23345",
+    "project": "",
+    "figure": "First framework that decouples face and hair components for 3D avatar reconstruction via strand-based Gaussians.",
+    "abstract": "FHAvatar is a framework for reconstructing 3D avatars with separate face and hair components from few casual captures. It uses an aggregated transformer backbone to learn geometry-aware priors, achieving high-quality reconstruction and supporting real-time animation and hairstyle transfer."
+  },
+  {
+    "id": "hairweaver",
+    "title": "HairWeaver: Few-Shot Photorealistic Hair Motion Synthesis with Sim-to-Real Guided Video Diffusion",
+    "short": "HairWeaver",
+    "authors": [
+      "Chang",
+      "Hou",
+      "Bozic",
+      "Neuberger",
+      "Juefei-Xu",
+      "Maury",
+      "Lin",
+      "Stuyck",
+      "Roble",
+      "Soleymani",
+      "Grabli"
+    ],
+    "year": 2026,
+    "month": 2,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Strand",
+      "Generation",
+      "Simulation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2602.11117",
+    "project": "https://boese0601.github.io/hairweaver/",
+    "figure": "First method for few-shot photorealistic hair motion synthesis via video diffusion.",
+    "abstract": "HairWeaver is a diffusion-based pipeline that animates a single human image with realistic hair dynamics. It integrates motion conditions and preserves photoreal appearance across domains, allowing for fine control over hair motion. Evaluations show it sets a new state of the art in lifelike human hair animations.",
+    "figureUrl": "https://boese0601.github.io/hairweaver/static/image/hair_emoji.png"
+  },
+  {
+    "id": "neuralfur",
+    "title": "NeuralFur: Animal Fur Reconstruction From Multi-View Images",
+    "short": "NeuralFur",
+    "authors": [
+      "Sklyarova",
+      "Kabadayi",
+      "Yiannakidis",
+      "Becherini",
+      "Black",
+      "Thies"
+    ],
+    "year": 2026,
+    "month": 1,
+    "venue": "3DV",
+    "venueYear": 2026,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Fur"
+    ],
+    "citations": 1,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2601.12481",
+    "project": "https://neuralfur.is.tue.mpg.de",
+    "figure": "First multi-view-based method for high-fidelity 3D fur modeling of animals using a strand-based representation.",
+    "abstract": "This paper presents a novel method for reconstructing realistic animal fur geometry from multi-view images. It utilizes a strand-based representation and a vision language model to guide the reconstruction process, addressing challenges like fine-scale details and self-occlusion. The approach shows generalization across various animals and includes a project page for additional results and code.",
+    "figureUrl": "https://neuralfur.is.tue.mpg.de/media/upload/images/teaser.png"
+  },
+  {
+    "id": "dgh",
+    "title": "DGH: Dynamic Gaussian Hair",
+    "short": "DGH",
+    "authors": [
+      "Wang",
+      "Xu",
+      "Tretschk",
+      "Wang",
+      "Ianina",
+      "Bozic",
+      "Neumann",
+      "Tung"
+    ],
+    "year": 2025,
+    "month": 12,
+    "venue": "NeurIPS",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Simulation",
+      "Rendering",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2512.17094",
+    "project": "https://junyingw.github.io/paper/dgh",
+    "figure": "First data-driven framework for dynamic hair that learns motion and appearance via a Gaussian representation.",
+    "abstract": "Dynamic Gaussian Hair (DGH) addresses the challenges of creating photorealistic dynamic hair by introducing a framework that learns hair dynamics and appearance efficiently. It features a coarse-to-fine model for coherent motion and a strand-guided optimization for a dynamic 3D Gaussian representation, allowing for gradient-based learning. DGH scales with training data and integrates into a 3D Gau",
+    "figureUrl": "https://junyingw.github.io/paper/img/teaser.png"
+  },
+  {
+    "id": "dymo-hair",
+    "title": "DYMO-Hair: Generalizable Volumetric Dynamics Modeling for Robot Hair Manipulation",
+    "short": "DYMO-Hair",
+    "authors": [
+      "Zhao",
+      "Yoo",
+      "Chaudhury",
+      "Nam",
+      "Francis",
+      "Ichnowski",
+      "Oh"
+    ],
+    "year": 2025,
+    "month": 10,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Volume",
+      "Simulation",
+      "Hair",
+      "Dynamics",
+      "Editing"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2510.06199",
+    "project": "https://dymohair.github.io/",
+    "figure": "First model-based robot hair care system that generalizes across diverse hairstyles via a novel dynamics learning paradigm.",
+    "abstract": "DYMO-Hair is a model-based robot hair care system that introduces a dynamics learning paradigm for volumetric hair manipulation. It utilizes a compact 3D latent space of diverse hairstyles, pre-trained with a hair physics simulator, to enhance generalizability. The system demonstrates superior performance in visual goal-conditioned hair styling tasks, achieving significant improvements over existi",
+    "figureUrl": "https://dymohair.github.io/assets/images/model_overview.png"
+  },
+  {
+    "id": "controlhair",
+    "title": "ControlHair: Physically-based Video Diffusion for Controllable Dynamic Hair Rendering",
+    "short": "ControlHair",
+    "authors": [
+      "Lin",
+      "Li",
+      "Zhu"
+    ],
+    "year": 2025,
+    "month": 9,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Hybrid",
+      "Simulation",
+      "Rendering",
+      "Hair",
+      "Dynamics"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2509.21541",
+    "project": "https://ctrlhair-arxiv.netlify.app/",
+    "figure": "First physics-informed video diffusion framework for controllable dynamics.",
+    "abstract": "ControlHair is a hybrid framework that combines a physics simulator with video diffusion to achieve controllable dynamic hair rendering. It uses a three-stage pipeline to encode physics parameters, extract control signals, and generate videos with desired hair dynamics. Trained on a 10K video dataset, it outperforms existing methods and supports various applications like hairstyle try-on and cinem"
+  },
+  {
+    "id": "charm",
+    "title": "CHARM: Control-point-based 3D Anime Hairstyle Auto-Regressive Modeling",
+    "short": "CHARM",
+    "authors": [
+      "He",
+      "Zhou",
+      "Zhao",
+      "Ye",
+      "Bai",
+      "Xiao",
+      "Liu",
+      "Sun",
+      "Yang"
+    ],
+    "year": 2025,
+    "month": 9,
+    "venue": "SIGGRAPH Asia",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Generation",
+      "Hair",
+      "Editing",
+      "Anime"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2509.21114",
+    "project": "https://hyzcluster.github.io/charm/",
+    "figure": "First control-point-based framework for anime hairstyle generation via autoregressive modeling",
+    "abstract": "CHARM introduces a novel parametric representation and generative framework for modeling anime hairstyles, addressing the challenges of traditional methods. It utilizes a compact control-point-based parameterization for efficient design and learning-based generation. The framework generates high-fidelity anime hairstyles from images or point clouds, supported by a large-scale dataset of 37K hairst",
+    "figureUrl": "https://hyzcluster.github.io/charm/static/images/teaser.jpg"
+  },
+  {
+    "id": "hairgs",
+    "title": "HairGS: Hair Strand Reconstruction based on 3D Gaussian Splatting",
+    "short": "HairGS",
+    "authors": [
+      "Pan",
+      "Nießner",
+      "Kirschstein"
+    ],
+    "year": 2025,
+    "month": 9,
+    "venue": "BMVC",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Hair",
+      "3DGS"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2509.07774",
+    "project": "https://yimin-pan.github.io/hair-gs/",
+    "figure": "First strand-level hair geometry reconstruction using 3D Gaussian Splatting.",
+    "abstract": "This paper presents HairGS, a method for reconstructing hair strands from multi-view images using 3D Gaussian Splatting. The approach includes a multi-stage pipeline that reconstructs hair geometry, merges Gaussian segments into strands, and refines them under photometric supervision. A new evaluation metric for topological accuracy is also introduced, demonstrating robust performance across vario",
+    "figureUrl": "https://yimin-pan.github.io/hair-gs/static/figures/teaser.jpg"
+  },
+  {
+    "id": "im2haircut",
+    "title": "Im2Haircut: Single-view Strand-based Hair Reconstruction for Human Avatars",
+    "short": "Im2Haircut",
+    "authors": [
+      "Sklyarova",
+      "Zakharov",
+      "Prinzler",
+      "Becherini",
+      "Black",
+      "Thies"
+    ],
+    "year": 2025,
+    "month": 9,
+    "venue": "ICCV",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Single-image",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 3,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2509.01469",
+    "project": "https://im2haircut.is.tue.mpg.de",
+    "figure": "First single-view strand-based hair reconstruction method using a global hair prior and local optimization.",
+    "abstract": "This paper introduces a method for 3D hair reconstruction from single images, combining a global hair prior with local optimization. It addresses challenges in capturing hair geometry by leveraging both real and synthetic data to model hairstyle structures effectively. The proposed Gaussian-splatting-based reconstruction method shows superior performance in capturing hair details and overall struc",
+    "figureUrl": "https://im2haircut.is.tue.mpg.de/static/images/teaser.png"
+  },
+  {
+    "id": "panohair",
+    "title": "PanoHair: Detailed Hair Strand Synthesis on Volumetric Heads",
+    "short": "PanoHair",
+    "authors": [
+      "Verma",
+      "Raman"
+    ],
+    "year": 2025,
+    "month": 8,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Mesh",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2508.18944",
+    "project": "",
+    "figure": "First model that synthesizes detailed hair strands on volumetric heads using signed distance fields.",
+    "abstract": "PanoHair addresses the challenge of realistic hair strand synthesis by estimating head geometry as signed distance fields. It allows for the generation of diverse hairstyles and produces high-fidelity hair strands efficiently, overcoming the limitations of existing multi-view data acquisition methods."
+  },
+  {
+    "id": "stranddesigner",
+    "title": "StrandDesigner: Towards Practical Strand Generation with Sketch Guidance",
+    "short": "StrandDesigner",
+    "authors": [
+      "Zhang",
+      "Li",
+      "Xu",
+      "Feng",
+      "Hu",
+      "Zhang",
+      "Cao",
+      "Wang",
+      "Fu"
+    ],
+    "year": 2025,
+    "month": 8,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Generation",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2508.01650",
+    "project": "https://github.com/fighting-Zhang/StrandDesigner",
+    "figure": "First sketch-based strand generation model that offers user-friendly control.",
+    "abstract": "StrandDesigner introduces a novel sketch-based model for realistic hair strand generation, addressing the limitations of existing diffusion models. It features a learnable strand upsampling strategy and a multi-scale adaptive conditioning mechanism to enhance realism and precision. Experiments demonstrate its superiority over current methods, with code to be released on GitHub.",
+    "figureUrl": "https://opengraph.githubassets.com/484f67c2364cc014421158194cd7aa4d8fd4825f243707ab5208c216d3ecce94/fighting-Zhang/StrandDesigner"
+  },
+  {
+    "id": "hairformer",
+    "title": "HairFormer: Transformer-Based Dynamic Neural Hair Simulation",
+    "short": "HairFormer",
+    "authors": [
+      "Zhang",
+      "Zhu",
+      "Chen",
+      "Marschner"
+    ],
+    "year": 2025,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Simulation",
+      "Dynamics",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2507.12600",
+    "project": "",
+    "figure": "First Transformer-based method for dynamic hair simulation across arbitrary hairstyles and motions.",
+    "abstract": "HairFormer introduces a two-stage neural approach for simulating hair dynamics that generalizes across various hairstyles and body shapes. It utilizes a Transformer-based static network for predicting hair shapes and a dynamic network for generating expressive motions, achieving real-time inference and high fidelity in hair simulation."
+  },
+  {
+    "id": "shapeadaptation",
+    "title": "Shape Adaptation for 3D Hairstyle Retargeting",
+    "short": "ShapeAdaptation",
+    "authors": [
+      "Yu",
+      "Ren",
+      "Zheng",
+      "Chen",
+      "Zhou"
+    ],
+    "year": 2025,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Editing",
+      "Grooming",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2507.12168",
+    "project": "",
+    "figure": "First automatic shape adaptation method for 3D hairstyle retargeting via constrained optimization.",
+    "abstract": "This paper presents a method for automatically retargeting 3D hairstyles for novel characters in games and VR. It formulates the adaptation as a constrained optimization problem, using a multi-scale strategy to manage hair strand positioning. The method includes a hairline edit tool for user customization, demonstrating effectiveness through various experiments."
+  },
+  {
+    "id": "digitalsalon",
+    "title": "Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation",
+    "short": "DigitalSalon",
+    "authors": [
+      "He",
+      "Herrera",
+      "Shu",
+      "Sun",
+      "Feng",
+      "Pirk",
+      "Michels",
+      "Zhang",
+      "Wang",
+      "Dorsey",
+      "Rushmeier",
+      "Zhou"
+    ],
+    "year": 2025,
+    "month": 7,
+    "venue": "SIGGRAPH Asia",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Simulation",
+      "Rendering",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2507.07387",
+    "project": "https://digital-salon.github.io/",
+    "figure": "First comprehensive hair authoring system that integrates AI and physics for real-time grooming and simulation.",
+    "abstract": "Digital Salon is an innovative hair authoring system that enables real-time 3D hair generation, simulation, and rendering. It simplifies the hair modeling process through natural language interaction, guiding users through stages like hair retrieval and refinement. User studies indicate it surpasses traditional workflows, making advanced hair design more accessible. The system has potential applic",
+    "figureUrl": "https://digital-salon.github.io/assets/teaser.jpg"
+  },
+  {
+    "id": "neuralocks",
+    "title": "Neuralocks: Real-Time Dynamic Neural Hair Simulation",
+    "short": "Neuralocks",
+    "authors": [
+      "Lin",
+      "Larionov",
+      "Chen",
+      "Roble",
+      "Stuyck"
+    ],
+    "year": 2025,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Simulation",
+      "Hair",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2507.05191",
+    "project": "",
+    "figure": "First real-time dynamic neural hair simulation method that integrates with hair reconstruction.",
+    "abstract": "This paper presents a novel neural method for real-time dynamic hair simulation, overcoming limitations of existing techniques. It achieves efficient and stable simulation at the strand level, enabling diverse hairstyles without high computational costs. The method is self-supervised, allowing integration with hair reconstruction for automatic avatar creation, enhancing realism in virtual experien"
+  },
+  {
+    "id": "haircup",
+    "title": "HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars",
+    "short": "HairCUP",
+    "authors": [
+      "Kim",
+      "Saito",
+      "Nam",
+      "Simon",
+      "Saragih",
+      "Joo",
+      "Li"
+    ],
+    "year": 2025,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Mesh",
+      "Monocular",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2507.19481",
+    "project": "https://bjkim95.github.io/haircup/",
+    "figure": "First universal prior model for 3D head avatars that separates face and hair representations.",
+    "abstract": "HairCUP introduces a universal prior model for 3D head avatars that explicitly separates face and hair representations, addressing limitations of holistic models. It enables flexible applications like hairstyle swapping and can be fine-tuned with monocular captures for high-fidelity avatar generation."
+  },
+  {
+    "id": "unsupervised-braided-hair-reconstruction",
+    "title": "Unsupervised 3D Braided Hair Reconstruction from a Single-View Image",
+    "short": "Unsupervised-Braided-Hair-Reconstruction",
+    "authors": [
+      "Gao"
+    ],
+    "year": 2025,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Single-image",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2506.23072",
+    "project": "",
+    "figure": "First unsupervised method for 3D braided hair reconstruction from single-view images.",
+    "abstract": "This paper presents a novel unsupervised pipeline for reconstructing 3D braided hairstyles from single-view RGB images, addressing the challenges posed by the intricate structures of braids. The method leverages a synthetic braid model and outperforms existing approaches in accuracy and realism, enhancing hairstyle modeling for digital humans."
+  },
+  {
+    "id": "pelagepatternunwrapping",
+    "title": "Unsupervised Pelage Pattern Unwrapping for Animal Re-identification",
+    "short": "PelagePatternUnwrapping",
+    "authors": [
+      "Algasov",
+      "Nepovinnykh",
+      "Zolotarev",
+      "Eerola",
+      "Kälviäinen",
+      "Zemčík",
+      "Stewart"
+    ],
+    "year": 2025,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Mesh",
+      "Reconstruction",
+      "Fur",
+      "Editing"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2506.15369",
+    "project": "",
+    "figure": "First method for geometry-aware texture mapping of animal fur patterns via UV unwrapping.",
+    "abstract": "This paper presents a geometry-aware texture mapping approach for unwrapping pelage patterns on animal fur, enhancing re-identification accuracy. The method preserves geometric consistency between 3D surfaces and 2D textures, focusing on species with deformable fur patterns. It improves feature matching without requiring ground truth UV annotations, achieving notable accuracy gains in diverse pose"
+  },
+  {
+    "id": "autohaircardextraction",
+    "title": "Auto Hair Card Extraction for Smooth Hair with Differentiable Rendering",
+    "short": "AutoHairCardExtraction",
+    "authors": [
+      "Zheng",
+      "Huang",
+      "Su",
+      "Ma",
+      "Shen",
+      "Wang",
+      "Yang",
+      "Gao",
+      "Pan",
+      "Wu"
+    ],
+    "year": 2025,
+    "month": 5,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Mesh",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2505.18805",
+    "project": "",
+    "figure": "First automated pipeline for hair card extraction from strand-based models using differentiable rendering.",
+    "abstract": "This paper introduces an automated pipeline for converting strand-based hair models into hair card models, optimizing both texture and geometry while preserving hairstyle appearance. The method employs a novel differentiable representation and a two-stage optimization process, evaluated across various hairstyles. It also supports seamless LoD transitions for improved memory efficiency."
+  },
+  {
+    "id": "difflocks",
+    "title": "DiffLocks: Generating 3D Hair from a Single Image using Diffusion Models",
+    "short": "DiffLocks",
+    "authors": [
+      "Rosu",
+      "Wu",
+      "Feng",
+      "Zheng",
+      "Black"
+    ],
+    "year": 2025,
+    "month": 5,
+    "venue": "CVPR",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Single-image",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2505.06166",
+    "project": "https://radualexandru.github.io/difflocks/",
+    "figure": "First method that generates detailed 3D hair from a single image using a diffusion model",
+    "abstract": "DiffLocks is a framework that generates 3D hair geometry from a single image, overcoming limitations of previous methods by using a large synthetic dataset and a diffusion-transformer model. It can accurately reconstruct a variety of hairstyles, including complex curly styles, directly from frontal images without post-processing.",
+    "figureUrl": "https://radualexandru.github.io/difflocks/imgs/figures_from_paper/teaser.png"
+  },
+  {
+    "id": "geomhair",
+    "title": "GeomHair: Reconstruction of Hair Strands from Colorless 3D Scans",
+    "short": "GeomHair",
+    "authors": [
+      "Lazuardi",
+      "Sevastopolsky",
+      "Zakharov",
+      "Niessner",
+      "Sklyarova"
+    ],
+    "year": 2025,
+    "month": 5,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2505.05376",
+    "project": "",
+    "figure": "First method to reconstruct hair strands from colorless 3D scans using multi-modal orientation extraction.",
+    "abstract": "GeomHair presents a method for reconstructing hair strands from colorless 3D scans by extracting hair orientations without relying on RGB data. It addresses challenges in accurately recovering hair's complex structure and introduces Strands400, a dataset of hair strands with detailed geometry from 400 subjects, facilitating further research."
+  },
+  {
+    "id": "groomlight",
+    "title": "GroomLight: Hybrid Inverse Rendering for Relightable Human Hair Appearance Modeling",
+    "short": "GroomLight",
+    "authors": [
+      "Zheng",
+      "Chai",
+      "Vicini",
+      "Zhou",
+      "Xu",
+      "Guibas",
+      "Wetzstein",
+      "Beeler"
+    ],
+    "year": 2025,
+    "month": 3,
+    "venue": "CVPR",
+    "venueYear": 2025,
+    "tags": [
+      "Hybrid",
+      "Multi-view",
+      "Relightable",
+      "Hair",
+      "Rendering"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2503.10597",
+    "project": "https://syntec-research.github.io/GroomLight",
+    "figure": "First hybrid inverse rendering method for relightable hair appearance modeling from multi-view images.",
+    "abstract": "GroomLight is a novel method that combines analytical and neural rendering approaches for relightable hair appearance modeling. It utilizes an extended hair BSDF model and a light-aware residual model to achieve high-fidelity relighting and material editing. Evaluations on real-world hair data show its state-of-the-art performance."
+  },
+  {
+    "id": "srm-hair",
+    "title": "SRM-Hair: Single Image Head Mesh Reconstruction via 3D Morphable Hair",
+    "short": "SRM-Hair",
+    "authors": [
+      "Wang",
+      "Zhao",
+      "Xu",
+      "Zhu",
+      "Lei"
+    ],
+    "year": 2025,
+    "month": 3,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Mesh",
+      "Reconstruction",
+      "Hair",
+      "Single-image",
+      "Editing"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2503.06154",
+    "project": "https://github.com/wang-zidu/SRM-Hair",
+    "figure": "First method for semantic-consistent ray modeling of hair via 3D Morphable Models.",
+    "abstract": "SRM-Hair introduces a method for morphable 3D hair reconstruction from a single image, utilizing semantic-consistent ray modeling to create an independent hair mesh. The approach allows for hairstyle fusion and modifications, supported by a dataset of high-fidelity hair scans. The method achieves state-of-the-art performance in 3D mesh reconstruction and is applicable in virtual avatar creation an",
+    "figureUrl": "https://opengraph.githubassets.com/f90d9472bde08cbc1b55cb051faf47c39e344e8fe2eb500444919450d016380c/wang-zidu/SRM-Hair"
+  },
+  {
+    "id": "tangled",
+    "title": "TANGLED: Generating 3D Hair Strands from Images with Arbitrary Styles and Viewpoints",
+    "short": "TANGLED",
+    "authors": [
+      "Long",
+      "Zhao",
+      "Ouyang",
+      "Zhao",
+      "Zhang",
+      "Yang",
+      "Xu",
+      "Yu"
+    ],
+    "year": 2025,
+    "month": 2,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Generation",
+      "Hair",
+      "Strand",
+      "Multi-view",
+      "Editing"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2502.06392",
+    "project": "https://sites.google.com/view/tangled1",
+    "figure": "First method for 3D hair strand generation from diverse images using a diffusion framework.",
+    "abstract": "TANGLED is a novel approach for generating 3D hair strands from images, accommodating various styles and viewpoints. It utilizes a three-step pipeline, including a dataset of diverse hairstyles, a diffusion framework for capturing topological cues, and a post-processing module for maintaining coherence in complex structures. This method enhances hairstyle realism and supports applications like ske",
+    "figureUrl": "https://lh3.googleusercontent.com/sitesv/AA5AbUCgYa3bMVtOYIvXi3yWsIl5vzdJUsp_yPNnOz-LFPv0OXKiYLSEmBnABq4rIY8gQvyLbHoG6GkXy6sZAtMbrakORTpkYJdp_xblnO5AGj961vYUBxcztE68M0fuNBQxnSj4tL6FW-TubDdGvS3vm9iMTTS98CVFa69WCfzV2EpvRGX85DNiS8m55EqEQHrNPqYatJdhurfb4Tz8l3RnM64ipmOz2YkxCXGiT88=w1280"
+  },
+  {
+    "id": "fronthairstylingrobot",
+    "title": "Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment",
+    "short": "FrontHairStylingRobot",
+    "authors": [
+      "Kim",
+      "Kanazawa",
+      "Hasegawa",
+      "Kawaharazuka",
+      "Okada"
+    ],
+    "year": 2025,
+    "month": 1,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Dynamics",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2501.10991",
+    "project": "",
+    "figure": "First robotic system for automated front hair styling using path planning.",
+    "abstract": "This research introduces a robotic system for automatic front hair styling, focusing on root-centric strand adjustments. It utilizes images to compare current and desired hair states, employing path planning for effective alignment. The system demonstrates high similarity and consistency in styling, showcasing potential for precise automated hairstyle adjustments."
+  },
+  {
+    "id": "degstalk",
+    "title": "DEGSTalk: Decomposed Per-Embedding Gaussian Fields for Hair-Preserving Talking Face Synthesis",
+    "short": "DEGSTalk",
+    "authors": [
+      "Deng",
+      "Zheng",
+      "Xie",
+      "Wang",
+      "Xie",
+      "Shen",
+      "Song"
+    ],
+    "year": 2024,
+    "month": 12,
+    "venue": "arXiv",
+    "venueYear": 2024,
+    "tags": [
+      "Mesh",
+      "Reconstruction",
+      "Rendering",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2412.20148",
+    "project": "https://github.com/CVI-SZU/DEGSTalk",
+    "figure": "First method for realistic talking face synthesis that preserves long hair dynamics via 3D Gaussian Splatting.",
+    "abstract": "DEGSTalk is a novel method for synthesizing talking face videos that effectively captures fine facial features and long hair dynamics. It utilizes Deformable Pre-Embedding Gaussian Fields to enhance realism in facial expressions and hair motion. The approach demonstrates significant improvements in synthesis quality, particularly for complex dynamics involving hair. Code will be available at https",
+    "figureUrl": "https://opengraph.githubassets.com/897ac7f600d57ad889074485bd593230d4bc2f8d4f4df5be7efa9f42376125ea/CVI-SZU/DEGSTalk"
+  },
+  {
+    "id": "augmented-mass-spring",
+    "title": "Augmented Mass-Spring model for Real-Time Dense Hair Simulation",
+    "short": "Augmented-Mass-Spring",
+    "authors": [
+      "Herrera",
+      "Zhou",
+      "Sun",
+      "Shu",
+      "He",
+      "Pirk",
+      "Michels"
+    ],
+    "year": 2024,
+    "month": 12,
+    "venue": "arXiv",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Simulation",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2412.17144",
+    "project": "https://agrosamad.github.io/AMS/",
+    "figure": "First real-time dense hair simulation model using an Augmented Mass-Spring approach.",
+    "abstract": "This paper presents an Augmented Mass-Spring model for real-time simulation of dense hair at the strand level, improving stability and enabling complex interactivity and editing of hair assets. The method incorporates a unique biphasic coupling and demonstrates efficiency advantages over traditional models."
+  },
+  {
+    "id": "strandhead",
+    "title": "StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors",
+    "short": "StrandHead",
+    "authors": [
+      "Sun",
+      "Cai",
+      "Tai",
+      "Yang",
+      "Zhang"
+    ],
+    "year": 2024,
+    "month": 12,
+    "venue": "arXiv",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Generation",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2412.11586",
+    "project": "https://xiaokunsun.github.io/StrandHead.github.io/",
+    "figure": "First text-driven method for generating 3D hair strands and disentangled head avatars using human-centric priors.",
+    "abstract": "StrandHead is a novel method that generates 3D hair strands and disentangled head avatars from text prompts, overcoming data limitations. It utilizes a meshing approach guided by strand geometry and incorporates human-centric priors for realistic strand generation. The method achieves state-of-the-art performance in text to strand generation and allows for strand-level editing on avatars.",
+    "figureUrl": "https://xiaokunsun.github.io/StrandHead.github.io/static/images/teaser.png"
+  },
+  {
+    "id": "drive",
+    "title": "DRiVE: Diffusion-based Rigging Empowers Generation of Versatile and Expressive Characters",
+    "short": "DRiVE",
+    "authors": [
+      "Sun",
+      "Chen",
+      "Dong",
+      "Chen",
+      "Jiang",
+      "Mao",
+      "Jiang",
+      "Wang",
+      "Dai",
+      "Huang"
+    ],
+    "year": 2024,
+    "month": 11,
+    "venue": "CVPR",
+    "venueYear": 2024,
+    "tags": [
+      "Mesh",
+      "Multi-view",
+      "Generation",
+      "Dynamics",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2411.17423",
+    "project": "",
+    "figure": "First framework that generates and rigs 3D characters with intricate structures using a 3D Gaussian representation.",
+    "abstract": "DRiVE is a novel framework for generating and rigging 3D human characters, addressing challenges in animating complex elements like hair. It utilizes a 3D Gaussian representation for efficient animation and high-quality rendering, demonstrating superior performance in rigging and dynamics for clothing and hair. A large-scale dataset, AnimeRig, is also introduced to support this work."
+  },
+  {
+    "id": "unified3dhair",
+    "title": "Towards Unified 3D Hair Reconstruction from Single-View Portraits",
+    "short": "Unified3DHair",
+    "authors": [
+      "Zheng",
+      "Qiu",
+      "Jin",
+      "Ma",
+      "Huang",
+      "Zhang",
+      "Wan",
+      "Han"
+    ],
+    "year": 2024,
+    "month": 9,
+    "venue": "SIGGRAPH Asia",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Reconstruction",
+      "Hair",
+      "Single-image"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2409.16863",
+    "project": "https://unihair24.github.io",
+    "figure": "First unified pipeline for single-view 3D hair reconstruction across diverse hairstyles.",
+    "abstract": "This paper addresses the challenge of single-view 3D hair reconstruction by proposing a unified strategy that works for both braided and un-braided styles. It introduces a large-scale synthetic dataset and employs diffusion priors to optimize 3D Gaussian-based hair. The method demonstrates state-of-the-art performance and good generalization to real images.",
+    "figureUrl": "https://unihair24.github.io/img/teaser.jpg"
+  },
+  {
+    "id": "gaussian-haircut",
+    "title": "Human Hair Reconstruction with Strand-Aligned 3D Gaussians",
+    "short": "Gaussian-Haircut",
+    "authors": [
+      "Zakharov",
+      "Sklyarova",
+      "Black",
+      "Nam",
+      "Thies",
+      "Hilliges"
+    ],
+    "year": 2024,
+    "month": 9,
+    "venue": "ECCV",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Editing",
+      "Rendering"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2409.14778",
+    "project": "",
+    "figure": "First hair modeling method using strand-aligned 3D Gaussians for accurate reconstructions from multi-view data",
+    "abstract": "This paper presents a novel hair modeling technique that combines classical hair strands with 3D Gaussians to achieve realistic strand-based reconstructions from multi-view data. The method allows for direct use in graphics engines for editing, rendering, and simulation, and demonstrates state-of-the-art performance in strand-based hair reconstruction."
+  },
+  {
+    "id": "groomcap",
+    "title": "GroomCap: High-Fidelity Prior-Free Hair Capture",
+    "short": "GroomCap",
+    "authors": [
+      "Zhou",
+      "Chai",
+      "Wang",
+      "Winberg",
+      "Wood",
+      "Sarkar",
+      "Gross",
+      "Beeler"
+    ],
+    "year": 2024,
+    "month": 9,
+    "venue": "arXiv",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2409.00831",
+    "project": "",
+    "figure": "First high-fidelity hair capture method using a neural implicit representation without external data priors.",
+    "abstract": "GroomCap is a novel multi-view hair capture method that reconstructs high-fidelity hair geometry without relying on external data. It employs a neural implicit representation for hair volume and a new volumetric rendering algorithm to maintain structural integrity. The method also includes a Gaussian-based optimization strategy for refining hair strands, resulting in precise and detailed hair geom"
+  },
+  {
+    "id": "perm",
+    "title": "Perm: A Parametric Representation for Multi-Style 3D Hair Modeling",
+    "short": "Perm",
+    "authors": [
+      "He",
+      "Sun",
+      "Shu",
+      "Luan",
+      "Pirk",
+      "Herrera",
+      "Michels",
+      "Wang",
+      "Zhang",
+      "Rushmeier",
+      "Zhou"
+    ],
+    "year": 2024,
+    "month": 7,
+    "venue": "ICLR",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Generation",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2407.19451",
+    "project": "https://cs.yale.edu/homes/che/projects/perm/",
+    "figure": "First parametric representation for multi-style 3D hair modeling via PCA-based strand representation.",
+    "abstract": "Perm introduces a learned parametric representation for 3D hair that separates global structure from local curl patterns using a PCA-based strand approach. This allows for precise editing and control in hair-related applications, including single-view reconstruction and hairstyle editing. The model is validated through extensive experiments and is available for various tasks.",
+    "figureUrl": "https://cs.yale.edu/homes/che/projects/perm/assets/teaser.png"
+  },
+  {
+    "id": "realtimelodhair",
+    "title": "Real-time Level-of-Detail Strand-based Hair Rendering",
+    "short": "RealTimeLODHair",
+    "authors": [
+      "Huang",
+      "Zhou",
+      "Lin",
+      "Zhu",
+      "Yan",
+      "Wu"
+    ],
+    "year": 2024,
+    "month": 5,
+    "venue": "arXiv",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Rendering",
+      "Dynamics",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2405.10565",
+    "project": "",
+    "figure": "First real-time framework for strand-based hair rendering with seamless LOD transitions.",
+    "abstract": "This paper presents a real-time framework for strand-based hair rendering that ensures seamless transitions between different levels of detail while maintaining consistent hair appearance. The method employs elliptical thick hairs to represent hair clusters and introduces a BCSDF model for accurate light scattering. The framework achieves significant speed improvements while producing high-quality"
+  },
+  {
+    "id": "monohair",
+    "title": "MonoHair: High-Fidelity Hair Modeling from a Monocular Video",
+    "short": "MonoHair",
+    "authors": [
+      "Wu",
+      "Yang",
+      "Kuang",
+      "Feng",
+      "Han",
+      "Shen",
+      "Fu",
+      "Zhou",
+      "Zheng"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "CVPR",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Monocular",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2403.18356",
+    "project": "https://keyuwu-cs.github.io/MonoHair/",
+    "figure": "First high-fidelity hair reconstruction from monocular video via Patch-based Multi-View Optimization.",
+    "abstract": "MonoHair presents a framework for high-fidelity hair reconstruction from monocular video, addressing challenges in existing methods. It separates the modeling process into exterior reconstruction using PMVO and interior structure inference, enhancing detail capture and accuracy. The method shows robustness across various hairstyles and achieves state-of-the-art results.",
+    "figureUrl": "https://keyuwu-cs.github.io/MonoHair/static/images/pipeline.png"
+  },
+  {
+    "id": "drhair",
+    "title": "Dr.Hair: Reconstructing Scalp-Connected Hair Strands without Pre-training via Differentiable Rendering of Line Segments",
+    "short": "DrHair",
+    "authors": [
+      "Takimoto",
+      "Takehara",
+      "Sato",
+      "Zhu",
+      "Zheng"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "CVPR",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Reconstruction",
+      "Simulation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2403.17496",
+    "project": "",
+    "figure": "First method to reconstruct scalp-connected hair strands without pre-training via differentiable rendering of line segments.",
+    "abstract": "This study presents an optimization-based approach for reconstructing hair strands from surface images without the need for pre-training. The method uses line segments to represent hair strands and employs a novel differentiable rendering algorithm, achieving robust inverse rendering and improved processing speed compared to existing methods."
+  },
+  {
+    "id": "gaussianhair",
+    "title": "GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians",
+    "short": "GaussianHair",
+    "authors": [
+      "Luo",
+      "Ouyang",
+      "Zhao",
+      "Jiang",
+      "Zhang",
+      "Zhang",
+      "Yang",
+      "Xu",
+      "Yu"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "arXiv",
+    "venueYear": 2024,
+    "tags": [
+      "Strand",
+      "Mesh",
+      "Rendering",
+      "Editing",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2402.10483",
+    "project": "",
+    "figure": "First hair modeling and rendering method using light-aware Gaussian primitives.",
+    "abstract": "GaussianHair introduces a novel hair representation using connected cylindrical 3D Gaussian primitives, enabling realistic hair modeling and rendering. It addresses challenges in hair geometry and light interaction, supporting editing, relighting, and dynamic rendering. The method achieves high fidelity in both geometry and appearance, backed by a comprehensive dataset of real human hair."
+  },
+  {
+    "id": "haar",
+    "title": "HAAR: Text-Conditioned Generative Model of 3D Strand-based Human Hairstyles",
+    "short": "HAAR",
+    "authors": [
+      "Sklyarova",
+      "Zakharov",
+      "Hilliges",
+      "Black",
+      "Thies"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "CVPR",
+    "venueYear": 2023,
+    "tags": [
+      "Strand",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2312.11666",
+    "project": "https://haar.is.tue.mpg.de/",
+    "figure": "First text-guided generative model for 3D hairstyles using strand representation.",
+    "abstract": "HAAR is a novel strand-based generative model that creates 3D human hairstyles from textual inputs. Unlike existing methods that rely on 2D priors, HAAR uses 3D hair strands, enabling the reconstruction of highly occluded structures suitable for production-level graphics. The model is trained using a latent diffusion approach in a common hairstyle UV space, demonstrating superior capabilities in h"
+  },
+  {
+    "id": "localappearancemodel",
+    "title": "A Local Appearance Model for Volumetric Capture of Diverse Hairstyle",
+    "short": "LocalAppearanceModel",
+    "authors": [
+      "Wang",
+      "Nam",
+      "Bozic",
+      "Cao",
+      "Saragih",
+      "Zollhoefer",
+      "Hodgins"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "3DV",
+    "venueYear": 2023,
+    "tags": [
+      "Mesh",
+      "Multi-view",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2312.08679",
+    "project": "",
+    "figure": "First method that captures diverse hairstyles using a local appearance model from multi-view data.",
+    "abstract": "This paper introduces a novel approach for creating high-fidelity avatars with diverse hairstyles by leveraging local similarity across different hairstyles. It learns a universal hair appearance prior from multi-view captures, enabling the generation of dense radiance fields conditioned on sparse point clouds. The method effectively handles various hair topologies and demonstrates improved perfor"
+  },
+  {
+    "id": "hhavatar",
+    "title": "HHAvatar: Gaussian Head Avatar with Dynamic Hairs",
+    "short": "HHAvatar",
+    "authors": [
+      "Liao",
+      "Xu",
+      "Li",
+      "Li",
+      "Zhou",
+      "Bai",
+      "Xu",
+      "Zhang",
+      "Liu"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Mesh",
+      "Reconstruction",
+      "Dynamics",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2312.03029",
+    "project": "https://liaozhanfeng.github.io/HHAvatar",
+    "figure": "First Gaussian head avatar that models dynamic hair via a hybrid representation.",
+    "abstract": "HHAvatar introduces a controllable 3D Gaussian representation for high-fidelity head avatars, focusing on dynamic hair modeling. The method optimizes both the head's appearance and a learned deformation field to capture expressions while ensuring hair motion aligns with head movements. It achieves high-quality rendering even under challenging conditions.",
+    "figureUrl": "https://liaozhanfeng.github.io/assets/teaser.jpg"
+  },
+  {
+    "id": "groomgen",
+    "title": "GroomGen: A High-Quality Generative Hair Model Using Hierarchical Latent Representations",
+    "short": "GroomGen",
+    "authors": [
+      "Zhou",
+      "Chai",
+      "Pepe",
+      "Gross",
+      "Beeler"
+    ],
+    "year": 2023,
+    "month": 11,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Generation",
+      "Editing",
+      "Hair",
+      "Strand",
+      "Hierarchical"
+    ],
+    "citations": 41,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2311.02062",
+    "project": "",
+    "figure": "First generative model for hair geometry using hierarchical latent representations.",
+    "abstract": "GroomGen introduces a novel generative model for hair geometry, utilizing hierarchical latent spaces for encoding and sampling diverse hairstyles. It features a strand-VAE and hairstyle-VAE for efficient training and inference, enabling hairstyle sampling, interpolation, and interactive editing. The approach demonstrates high-quality generation and robustness, making it a strong prior for hairstyl"
+  },
+  {
+    "id": "hairclipv2",
+    "title": "HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending",
+    "short": "HairCLIPv2",
+    "authors": [
+      "Wei",
+      "Chen",
+      "Zhou",
+      "Liao",
+      "Zhang",
+      "Hua",
+      "Yu"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Editing",
+      "Hair",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2310.10651",
+    "project": "https://github.com/wty-ustc/HairCLIPv2",
+    "figure": "First unified hair editing framework supporting text, reference images, sketches, and masks.",
+    "abstract": "HairCLIPv2 enhances hair editing by integrating various interaction modes, allowing users to specify editing conditions through text, reference images, sketches, or masks. It improves upon its predecessor, HairCLIP, by better preserving irrelevant attributes and supporting unseen text descriptions. The method converts hair editing tasks into hair transfer tasks, demonstrating superior editing effe",
+    "figureUrl": "https://opengraph.githubassets.com/df1d3abbe924e8d0fc24742d33e2b0b7f34069a4a8a56f2b6c54c207a6973186/wtybest/HairCLIPv2",
+    "codeUrl": "https://github.com/wty-ustc/HairCLIPv2"
+  },
+  {
+    "id": "neuralhaircut",
+    "title": "Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction",
+    "short": "NeuralHaircut",
+    "authors": [
+      "Sklyarova",
+      "Chelishev",
+      "Dogaru",
+      "Medvedev",
+      "Lempitsky",
+      "Zakharov"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "ICCV",
+    "venueYear": 2023,
+    "tags": [
+      "Strand",
+      "Monocular",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2306.05872",
+    "project": "",
+    "figure": "First strand-based hair reconstruction method from monocular video and multi-view images using implicit volumetric representations.",
+    "abstract": "Neural Haircut presents a novel approach for accurate strand-level hair geometry reconstruction from monocular video or multi-view images. It combines implicit volumetric representations with hairstyle priors and image-based losses to enhance realism and personalization in hair modeling."
+  },
+  {
+    "id": "hairstep",
+    "title": "HairStep: Transfer Synthetic to Real Using Strand and Depth Maps for Single-View 3D Hair Modeling",
+    "short": "HairStep",
+    "authors": [
+      "Zheng",
+      "Jin",
+      "Li",
+      "Huang",
+      "Ma",
+      "Cui",
+      "Han"
+    ],
+    "year": 2023,
+    "month": 3,
+    "venue": "CVPR",
+    "venueYear": 2023,
+    "tags": [
+      "Strand",
+      "Single-image",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2303.02700",
+    "project": "https://paulyzheng.github.io/research/hairstep/",
+    "figure": "First method that uses strand and depth maps for single-view 3D hair modeling.",
+    "abstract": "This paper addresses single-view 3D hair modeling by proposing HairStep, an intermediate representation combining strand and depth maps. It aims to bridge the domain gap between synthetic and real data, achieving state-of-the-art results in 3D hair reconstruction using a newly collected dataset of portrait images."
+  },
+  {
+    "id": "fast-real-time-shading",
+    "title": "Fast Real-Time Shading for Polygonal Hair",
+    "short": "Fast-Real-Time-Shading",
+    "authors": [
+      "Gerard"
+    ],
+    "year": 2023,
+    "month": 2,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Mesh",
+      "Rendering",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2302.06468",
+    "project": "",
+    "figure": "First fast technique for real-time hair shading using environment maps.",
+    "abstract": "This paper presents a novel approach to improve the real-time rendering of hair by approximating shading with environment maps and direct lighting, addressing the challenges of realistic hair rendering without deep opacity maps or extensive artistic input."
+  },
+  {
+    "id": "neuwigs",
+    "title": "NeuWigs: A Neural Dynamic Model for Volumetric Hair Capture and Animation",
+    "short": "NeuWigs",
+    "authors": [
+      "Wang",
+      "Nam",
+      "Stuyck",
+      "Lombardi",
+      "Cao",
+      "Saragih",
+      "Zollhoefer",
+      "Hodgins",
+      "Lassner"
+    ],
+    "year": 2022,
+    "month": 12,
+    "venue": "CVPR",
+    "venueYear": 2022,
+    "tags": [
+      "Volume",
+      "Dynamics",
+      "Simulation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2212.00613",
+    "project": "https://ziyanw1.github.io/neuwigs/",
+    "figure": "First dynamic model for volumetric hair capture and animation via a two-stage approach.",
+    "abstract": "NeuWigs presents a two-stage approach for capturing and animating human hair independently from the head. It utilizes a low-dimensional latent space for 3D hair states and a novel hair dynamics model for temporal hair transfer, outperforming existing methods in novel view synthesis and enabling novel hair animations without direct observations.",
+    "figureUrl": "https://ziyanw1.github.io/neuwigs/Path%20to%20my%20teaser.png"
+  },
+  {
+    "id": "ganhairsynth",
+    "title": "Realistic Hair Synthesis with Generative Adversarial Networks",
+    "short": "GANHairSynth",
+    "authors": [
+      "Pektas",
+      "Ugur"
+    ],
+    "year": 2022,
+    "month": 9,
+    "venue": "arXiv",
+    "venueYear": 2022,
+    "tags": [
+      "Generation",
+      "Hair",
+      "Strand"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2209.12875",
+    "project": "",
+    "figure": "First real-time hair synthesis method using GANs.",
+    "abstract": "This paper presents a generative adversarial network (GAN) method for real-time hair synthesis, addressing challenges in hair style transfer and reconstruction. Trained on the FFHQ dataset, the method competes with existing techniques like MichiGAN, achieving competitive visual quality and improved operating time."
+  },
+  {
+    "id": "neddf",
+    "title": "Neural Density-Distance Fields",
+    "short": "NeDDF",
+    "authors": [
+      "Ueda",
+      "Fukuhara",
+      "Kataoka",
+      "Aizawa",
+      "Shishido",
+      "Kitahara"
+    ],
+    "year": 2022,
+    "month": 7,
+    "venue": "ECCV",
+    "venueYear": 2022,
+    "tags": [
+      "Implicit",
+      "Reconstruction",
+      "Fur",
+      "Simulation"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2207.14455",
+    "project": "https://github.com/ueda0319/neddf",
+    "figure": "First method to extend distance field formulation to shapes with no explicit boundary surface, such as fur.",
+    "abstract": "This paper introduces Neural Density-Distance Field (NeDDF), a 3D representation that combines distance and density fields for improved localization and view synthesis. It effectively handles shapes without explicit boundaries, like fur, enabling high-quality registration and fast convergence from sparse point clouds. The method shows competitive results with existing techniques like NeRF.",
+    "figureUrl": "https://opengraph.githubassets.com/1fec50f98b9d0dba69ec5d22751d6d42345557fae0fde9f48a080b451c69cab1/ueda0319/neddf"
+  },
+  {
+    "id": "neural-strands",
+    "title": "Neural Strands: Learning Hair Geometry and Appearance from Multi-View Images",
+    "short": "Neural-Strands",
+    "authors": [
+      "Rosu",
+      "Saito",
+      "Wang",
+      "Wu",
+      "Behnke",
+      "Nam"
+    ],
+    "year": 2022,
+    "month": 7,
+    "venue": "ECCV",
+    "venueYear": 2022,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Rendering",
+      "Hair",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2207.14067",
+    "project": "https://radualexandru.github.io/neural_strands/",
+    "figure": "First framework that jointly learns hair geometry and appearance from multi-view images via a neural scalp texture.",
+    "abstract": "Neural Strands introduces a learning framework for modeling hair geometry and appearance from multi-view images, enabling real-time rendering with high-fidelity effects. It features a novel hair representation and a neural rendering framework that ensures strand-accurate and photorealistic results. The approach allows for intuitive control over hair shape and style, demonstrating significant fidel"
+  }
+]

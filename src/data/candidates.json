@@ -1,0 +1,258 @@
+[
+  {
+    "id": "haircup",
+    "title": "HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars",
+    "short": "HairCUP",
+    "authors": [
+      "Kim",
+      "Saito",
+      "Nam",
+      "Simon",
+      "Saragih",
+      "Joo",
+      "Li"
+    ],
+    "year": 2025,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2025,
+    "tags": [
+      "Mesh",
+      "Monocular",
+      "Generation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2507.19481",
+    "project": "",
+    "figure": "First universal prior model for 3D head avatars that separates face and hair representations.",
+    "abstract": "HairCUP introduces a universal prior model for 3D head avatars that explicitly separates face and hair representations, addressing limitations of holistic models. It enables flexible applications like hairstyle swapping and can be fine-tuned with monocular captures for high-fidelity avatar generation."
+  },
+  {
+    "id": "hairclipv2",
+    "title": "HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending",
+    "short": "HairCLIPv2",
+    "authors": [
+      "Wei",
+      "Chen",
+      "Zhou",
+      "Liao",
+      "Zhang",
+      "Hua",
+      "Yu"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Editing",
+      "Hair",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2310.10651",
+    "project": "https://github.com/wty-ustc/HairCLIPv2",
+    "figure": "First unified hair editing framework supporting text, reference images, sketches, and masks.",
+    "abstract": "HairCLIPv2 enhances hair editing by integrating various interaction modes, allowing users to specify editing conditions through text, reference images, sketches, or masks. It improves upon its predecessor, HairCLIP, by better preserving irrelevant attributes and supporting unseen text descriptions. The method converts hair editing tasks into hair transfer tasks, demonstrating superior editing effe"
+  },
+  {
+    "id": "neuralhaircut",
+    "title": "Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction",
+    "short": "NeuralHaircut",
+    "authors": [
+      "Sklyarova",
+      "Chelishev",
+      "Dogaru",
+      "Medvedev",
+      "Lempitsky",
+      "Zakharov"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Strand",
+      "Monocular",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2306.05872",
+    "project": "",
+    "figure": "First strand-based hair reconstruction method from monocular video and multi-view images using implicit volumetric representations.",
+    "abstract": "Neural Haircut presents a novel approach for accurate strand-level hair geometry reconstruction from monocular video or multi-view images. It combines implicit volumetric representations with hairstyle priors and image-based losses to enhance realism and personalization in hair modeling."
+  },
+  {
+    "id": "hairstep",
+    "title": "HairStep: Transfer Synthetic to Real Using Strand and Depth Maps for Single-View 3D Hair Modeling",
+    "short": "HairStep",
+    "authors": [
+      "Zheng",
+      "Jin",
+      "Li",
+      "Huang",
+      "Ma",
+      "Cui",
+      "Han"
+    ],
+    "year": 2023,
+    "month": 3,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Strand",
+      "Single-image",
+      "Reconstruction",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2303.02700",
+    "project": "",
+    "figure": "First method that uses strand and depth maps for single-view 3D hair modeling.",
+    "abstract": "This paper addresses single-view 3D hair modeling by proposing HairStep, an intermediate representation combining strand and depth maps. It aims to bridge the domain gap between synthetic and real data, achieving state-of-the-art results in 3D hair reconstruction using a newly collected dataset of portrait images."
+  },
+  {
+    "id": "fast-real-time-shading",
+    "title": "Fast Real-Time Shading for Polygonal Hair",
+    "short": "Fast-Real-Time-Shading",
+    "authors": [
+      "Gerard"
+    ],
+    "year": 2023,
+    "month": 2,
+    "venue": "arXiv",
+    "venueYear": 2023,
+    "tags": [
+      "Mesh",
+      "Rendering",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2302.06468",
+    "project": "",
+    "figure": "First fast technique for real-time hair shading using environment maps.",
+    "abstract": "This paper presents a novel approach to improve the real-time rendering of hair by approximating shading with environment maps and direct lighting, addressing the challenges of realistic hair rendering without deep opacity maps or extensive artistic input."
+  },
+  {
+    "id": "neuwigs",
+    "title": "NeuWigs: A Neural Dynamic Model for Volumetric Hair Capture and Animation",
+    "short": "NeuWigs",
+    "authors": [
+      "Wang",
+      "Nam",
+      "Stuyck",
+      "Lombardi",
+      "Cao",
+      "Saragih",
+      "Zollhoefer",
+      "Hodgins",
+      "Lassner"
+    ],
+    "year": 2022,
+    "month": 12,
+    "venue": "arXiv",
+    "venueYear": 2022,
+    "tags": [
+      "Volume",
+      "Dynamics",
+      "Simulation",
+      "Hair"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2212.00613",
+    "project": "https://ziyanw1.github.io/neuwigs/",
+    "figure": "First dynamic model for volumetric hair capture and animation via a two-stage approach.",
+    "abstract": "NeuWigs presents a two-stage approach for capturing and animating human hair independently from the head. It utilizes a low-dimensional latent space for 3D hair states and a novel hair dynamics model for temporal hair transfer, outperforming existing methods in novel view synthesis and enabling novel hair animations without direct observations."
+  },
+  {
+    "id": "ganhairsynth",
+    "title": "Realistic Hair Synthesis with Generative Adversarial Networks",
+    "short": "GANHairSynth",
+    "authors": [
+      "Pektas",
+      "Ugur"
+    ],
+    "year": 2022,
+    "month": 9,
+    "venue": "arXiv",
+    "venueYear": 2022,
+    "tags": [
+      "Generation",
+      "Hair",
+      "Strand"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2209.12875",
+    "project": "",
+    "figure": "First real-time hair synthesis method using GANs.",
+    "abstract": "This paper presents a generative adversarial network (GAN) method for real-time hair synthesis, addressing challenges in hair style transfer and reconstruction. Trained on the FFHQ dataset, the method competes with existing techniques like MichiGAN, achieving competitive visual quality and improved operating time."
+  },
+  {
+    "id": "neddf",
+    "title": "Neural Density-Distance Fields",
+    "short": "NeDDF",
+    "authors": [
+      "Ueda",
+      "Fukuhara",
+      "Kataoka",
+      "Aizawa",
+      "Shishido",
+      "Kitahara"
+    ],
+    "year": 2022,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2022,
+    "tags": [
+      "Implicit",
+      "Reconstruction",
+      "Fur",
+      "Simulation"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2207.14455",
+    "project": "https://github.com/ueda0319/neddf",
+    "figure": "First method to extend distance field formulation to shapes with no explicit boundary surface, such as fur.",
+    "abstract": "This paper introduces Neural Density-Distance Field (NeDDF), a 3D representation that combines distance and density fields for improved localization and view synthesis. It effectively handles shapes without explicit boundaries, like fur, enabling high-quality registration and fast convergence from sparse point clouds. The method shows competitive results with existing techniques like NeRF."
+  },
+  {
+    "id": "neural-strands",
+    "title": "Neural Strands: Learning Hair Geometry and Appearance from Multi-View Images",
+    "short": "Neural-Strands",
+    "authors": [
+      "Rosu",
+      "Saito",
+      "Wang",
+      "Wu",
+      "Behnke",
+      "Nam"
+    ],
+    "year": 2022,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2022,
+    "tags": [
+      "Strand",
+      "Multi-view",
+      "Rendering",
+      "Hair",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2207.14067",
+    "project": "",
+    "figure": "First framework that jointly learns hair geometry and appearance from multi-view images via a neural scalp texture.",
+    "abstract": "Neural Strands introduces a learning framework for modeling hair geometry and appearance from multi-view images, enabling real-time rendering with high-fidelity effects. It features a novel hair representation and a neural rendering framework that ensures strand-accurate and photorealistic results. The approach allows for intuitive control over hair shape and style, demonstrating significant fidel"
+  }
+]
