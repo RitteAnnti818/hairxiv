@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  actions: write
 
 jobs:
   project-meta:
@@ -26,21 +26,23 @@ jobs:
       - name: Scrape venue + code URL from project pages
         run: npm run project-meta
 
-      - name: Open PR if anything changed
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: auto/project-meta
-          commit-message: 'chore(data): scrape venue + code from project pages'
-          title: 'Project-page scrape: venue + code URL refresh'
-          body: |
-            Automated monthly scrape by `.github/workflows/project-meta.yml`.
+      - name: Commit & push if papers.json changed
+        id: commit
+        run: |
+          git config user.name "RitteAnnti818"
+          git config user.email "heeyun29@icloud.com"
+          if git diff --quiet -- src/data/papers.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes; nothing to commit."
+          else
+            git add src/data/papers.json
+            git commit -m "chore(data): scrape venue + code from project pages"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
-            For every paper with a `project` URL, fetches the page and extracts:
-            - **Venue** — plain-text like "CVPR 2026" from the header, only applied
-              to papers currently tagged `arXiv` (existing conference tags are
-              preserved).
-            - **Code URL** — the canonical `github.com/<owner>/<repo>` with
-              strict scoring: owner must match the project subdomain, or repo
-              name must overlap the paper's short name. Website templates
-              (nerfies, Academic-project-page-template) are blacklisted.
-          add-paths: src/data/papers.json
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main

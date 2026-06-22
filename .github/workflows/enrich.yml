@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  actions: write
 
 jobs:
   enrich:
@@ -29,18 +29,23 @@ jobs:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: npm run enrich
 
-      - name: Open PR if anything changed
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: auto/enrich-metadata
-          commit-message: 'chore(data): enrich venue / project / code links'
-          title: 'Metadata refresh: venues + project pages + code URLs'
-          body: |
-            Automated monthly enrichment by `.github/workflows/enrich.yml`.
+      - name: Commit & push if papers.json changed
+        id: commit
+        run: |
+          git config user.name "RitteAnnti818"
+          git config user.email "heeyun29@icloud.com"
+          if git diff --quiet -- src/data/papers.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes; nothing to commit."
+          else
+            git add src/data/papers.json
+            git commit -m "chore(data): enrich venue / project / code links"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
-            - Venues: Semantic Scholar (maps preprints to CVPR/ECCV/etc. after acceptance)
-            - Project pages: arXiv `comment` field + abstract URL extraction
-            - Code URLs: Papers with Code (prefers `is_official` repo, else most-starred)
-
-            Review the diff in `src/data/papers.json` and merge if the updates look right.
-          add-paths: src/data/papers.json
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
