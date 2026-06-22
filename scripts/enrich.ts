@@ -150,7 +150,7 @@ async function fetchRetry(
     try {
       const r = await fetch(url, {
         headers: {
-          'User-Agent': 'hair-3d-archive/0.1 enrich (academic)',
+          'User-Agent': 'hairxiv/0.1 enrich (academic)',
           Accept: 'application/json, application/xml, text/xml',
           ...(extraHeaders ?? {}),
         },

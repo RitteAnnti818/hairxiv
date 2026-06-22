@@ -72,7 +72,7 @@ async function fetchText(url: string): Promise<string | null> {
         // Ke-Sen's server 406s the default UA; a browser-style UA works for
         // both it and the virtual-site CDNs.
         'User-Agent':
-          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (hair-3d-archive)',
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (hairxiv)',
         Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       },
     });

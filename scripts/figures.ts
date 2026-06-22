@@ -33,7 +33,7 @@ async function fetchText(url: string): Promise<string | null> {
     const r = await fetch(url, {
       headers: {
         'User-Agent':
-          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (hair-3d-archive)',
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (hairxiv)',
         Accept: 'text/html,application/xhtml+xml,*/*;q=0.8',
       },
       redirect: 'follow',
@@ -112,7 +112,7 @@ async function headIsImage(url: string): Promise<boolean> {
   try {
     const r = await fetch(url, {
       method: 'HEAD',
-      headers: { 'User-Agent': 'Mozilla/5.0 (hair-3d-archive)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (hairxiv)' },
       redirect: 'follow',
     });
     if (!r.ok) return false;

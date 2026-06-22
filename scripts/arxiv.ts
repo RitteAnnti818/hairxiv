@@ -89,7 +89,7 @@ export async function fetchArxivForQuery(
     if (attempt > 0) await sleep(5000 * Math.pow(2, attempt - 1));
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': 'hair-3d-archive/0.1 (research crawl)' },
+        headers: { 'User-Agent': 'hairxiv/0.1 (research crawl)' },
       });
       if (res.status === 429 || res.status === 503) {
         lastErr = new Error(`HTTP ${res.status}`);
