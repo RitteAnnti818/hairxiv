@@ -46,8 +46,10 @@ jobs:
         run: |
           if [ -f src/data/candidates.json ]; then
             # Count top-level array entries — each entry object starts with `  {` in our pretty-printed JSON.
-            N=$(grep -c '^  {' src/data/candidates.json || echo 0)
-            echo "count=$N" >> "$GITHUB_OUTPUT"
+            # grep -c prints "0" and exits 1 on no match; `|| true` keeps that
+            # single line instead of appending a second "0" (invalid output format).
+            N=$(grep -c '^  {' src/data/candidates.json || true)
+            echo "count=${N:-0}" >> "$GITHUB_OUTPUT"
           else
             echo "count=0" >> "$GITHUB_OUTPUT"
           fi

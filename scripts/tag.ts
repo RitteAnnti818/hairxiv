@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 import type { ArxivCandidate, TaggedFields } from './schema';
 
 const client = new OpenAI();
-const MODEL = process.env.OPENAI_MODEL ?? 'gpt-4o-mini';
+const MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 
 /**
  * System prompt narrowed to **3D hair** research specifically.
