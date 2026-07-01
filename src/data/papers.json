@@ -97,7 +97,7 @@
     ],
     "year": 2026,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH",
     "venueYear": 2026,
     "tags": [
       "Strand",
@@ -135,12 +135,13 @@
       "Hair"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2604.06467",
     "project": "https://phys-head.github.io/",
     "figure": "First hybrid representation for animatable head avatars with realistic hair dynamics learned from multi-view video.",
     "abstract": "PhysHead introduces a hybrid representation for animatable head avatars that captures realistic hair dynamics, overcoming limitations of rigid hair movement in existing methods. It combines a 3D parametric mesh for the head with strand-based hair, enabling photorealistic avatars with dynamic hair behavior. The method employs Gaussian primitives for appearance modeling and proposes new training sch",
-    "figureUrl": "https://phys-head.github.io/static/images/teasercr-crop.jpg"
+    "figureUrl": "https://phys-head.github.io/static/images/teasercr-crop.jpg",
+    "codeUrl": "https://github.com/bernakabadayi/physhead"
   },
   {
     "id": "efficientmonohair",
@@ -249,11 +250,12 @@
       "Hair"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2604.14782",
     "project": "https://yuansun-xjtu.github.io/CompHairHead.io",
     "figure": "First method to decouple hair from face in 3D head avatars using distinct deformation paradigms.",
-    "abstract": "This paper presents a method for creating 3D head avatars from a single image, focusing on realistic hair dynamics by decoupling hair from the facial region. It utilizes 3D Gaussian Splatting for hair representation and introduces a cage structure for realistic hair deformation during animation. The approach shows improved realism in hair behavior and facial detail preservation compared to existin"
+    "abstract": "This paper presents a method for creating 3D head avatars from a single image, focusing on realistic hair dynamics by decoupling hair from the facial region. It utilizes 3D Gaussian Splatting for hair representation and introduces a cage structure for realistic hair deformation during animation. The approach shows improved realism in hair behavior and facial detail preservation compared to existin",
+    "codeUrl": "https://github.com/YuanSun-XJTU/CompHairHead"
   },
   {
     "id": "fhavatar",
@@ -348,7 +350,8 @@
     "project": "https://neuralfur.is.tue.mpg.de",
     "figure": "First multi-view-based method for high-fidelity 3D fur modeling of animals using a strand-based representation.",
     "abstract": "This paper presents a novel method for reconstructing realistic animal fur geometry from multi-view images. It utilizes a strand-based representation and a vision language model to guide the reconstruction process, addressing challenges like fine-scale details and self-occlusion. The approach shows generalization across various animals and includes a project page for additional results and code.",
-    "figureUrl": "https://neuralfur.is.tue.mpg.de/media/upload/images/teaser.png"
+    "figureUrl": "https://neuralfur.is.tue.mpg.de/media/upload/images/teaser.png",
+    "codeUrl": "https://github.com/Vanessik/NeuralFur"
   },
   {
     "id": "dgh",
@@ -473,7 +476,8 @@
     "project": "https://hyzcluster.github.io/charm/",
     "figure": "First control-point-based framework for anime hairstyle generation via autoregressive modeling",
     "abstract": "CHARM introduces a novel parametric representation and generative framework for modeling anime hairstyles, addressing the challenges of traditional methods. It utilizes a compact control-point-based parameterization for efficient design and learning-based generation. The framework generates high-fidelity anime hairstyles from images or point clouds, supported by a large-scale dataset of 37K hairst",
-    "figureUrl": "https://hyzcluster.github.io/charm/static/images/teaser.jpg"
+    "figureUrl": "https://hyzcluster.github.io/charm/static/images/teaser.jpg",
+    "codeUrl": "https://github.com/hyz317/CHARM"
   },
   {
     "id": "hairgs",
@@ -501,7 +505,8 @@
     "project": "https://yimin-pan.github.io/hair-gs/",
     "figure": "First strand-level hair geometry reconstruction using 3D Gaussian Splatting.",
     "abstract": "This paper presents HairGS, a method for reconstructing hair strands from multi-view images using 3D Gaussian Splatting. The approach includes a multi-stage pipeline that reconstructs hair geometry, merges Gaussian segments into strands, and refines them under photometric supervision. A new evaluation metric for topological accuracy is also introduced, demonstrating robust performance across vario",
-    "figureUrl": "https://yimin-pan.github.io/hair-gs/static/figures/teaser.jpg"
+    "figureUrl": "https://yimin-pan.github.io/hair-gs/static/figures/teaser.jpg",
+    "codeUrl": "https://github.com/yimin-pan/hair-gs"
   },
   {
     "id": "im2haircut",
@@ -531,7 +536,8 @@
     "project": "https://im2haircut.is.tue.mpg.de",
     "figure": "First single-view strand-based hair reconstruction method using a global hair prior and local optimization.",
     "abstract": "This paper introduces a method for 3D hair reconstruction from single images, combining a global hair prior with local optimization. It addresses challenges in capturing hair geometry by leveraging both real and synthetic data to model hairstyle structures effectively. The proposed Gaussian-splatting-based reconstruction method shows superior performance in capturing hair details and overall struc",
-    "figureUrl": "https://im2haircut.is.tue.mpg.de/static/images/teaser.png"
+    "figureUrl": "https://im2haircut.is.tue.mpg.de/static/images/teaser.png",
+    "codeUrl": "https://github.com/Vanessik/Im2Haircut"
   },
   {
     "id": "panohair",
@@ -589,7 +595,8 @@
     "project": "https://github.com/fighting-Zhang/StrandDesigner",
     "figure": "First sketch-based strand generation model that offers user-friendly control.",
     "abstract": "StrandDesigner introduces a novel sketch-based model for realistic hair strand generation, addressing the limitations of existing diffusion models. It features a learnable strand upsampling strategy and a multi-scale adaptive conditioning mechanism to enhance realism and precision. Experiments demonstrate its superiority over current methods, with code to be released on GitHub.",
-    "figureUrl": "https://opengraph.githubassets.com/484f67c2364cc014421158194cd7aa4d8fd4825f243707ab5208c216d3ecce94/fighting-Zhang/StrandDesigner"
+    "figureUrl": "https://opengraph.githubassets.com/484f67c2364cc014421158194cd7aa4d8fd4825f243707ab5208c216d3ecce94/fighting-Zhang/StrandDesigner",
+    "codeUrl": "https://github.com/fighting-Zhang/StrandDesigner"
   },
   {
     "id": "hairformer",
@@ -681,7 +688,8 @@
     "project": "https://digital-salon.github.io/",
     "figure": "First comprehensive hair authoring system that integrates AI and physics for real-time grooming and simulation.",
     "abstract": "Digital Salon is an innovative hair authoring system that enables real-time 3D hair generation, simulation, and rendering. It simplifies the hair modeling process through natural language interaction, guiding users through stages like hair retrieval and refinement. User studies indicate it surpasses traditional workflows, making advanced hair design more accessible. The system has potential applic",
-    "figureUrl": "https://digital-salon.github.io/assets/teaser.jpg"
+    "figureUrl": "https://digital-salon.github.io/assets/teaser.jpg",
+    "codeUrl": "https://github.com/digital-salon/Digital-Salon"
   },
   {
     "id": "neuralocks",
@@ -856,7 +864,8 @@
     "project": "https://radualexandru.github.io/difflocks/",
     "figure": "First method that generates detailed 3D hair from a single image using a diffusion model",
     "abstract": "DiffLocks is a framework that generates 3D hair geometry from a single image, overcoming limitations of previous methods by using a large synthetic dataset and a diffusion-transformer model. It can accurately reconstruct a variety of hairstyles, including complex curly styles, directly from frontal images without post-processing.",
-    "figureUrl": "https://radualexandru.github.io/difflocks/imgs/figures_from_paper/teaser.png"
+    "figureUrl": "https://radualexandru.github.io/difflocks/imgs/figures_from_paper/teaser.png",
+    "codeUrl": "https://github.com/Meshcapade/difflocks"
   },
   {
     "id": "geomhair",
@@ -946,7 +955,8 @@
     "project": "https://github.com/wang-zidu/SRM-Hair",
     "figure": "First method for semantic-consistent ray modeling of hair via 3D Morphable Models.",
     "abstract": "SRM-Hair introduces a method for morphable 3D hair reconstruction from a single image, utilizing semantic-consistent ray modeling to create an independent hair mesh. The approach allows for hairstyle fusion and modifications, supported by a dataset of high-fidelity hair scans. The method achieves state-of-the-art performance in 3D mesh reconstruction and is applicable in virtual avatar creation an",
-    "figureUrl": "https://opengraph.githubassets.com/f90d9472bde08cbc1b55cb051faf47c39e344e8fe2eb500444919450d016380c/wang-zidu/SRM-Hair"
+    "figureUrl": "https://opengraph.githubassets.com/f90d9472bde08cbc1b55cb051faf47c39e344e8fe2eb500444919450d016380c/wang-zidu/SRM-Hair",
+    "codeUrl": "https://github.com/wang-zidu/SRM-Hair"
   },
   {
     "id": "tangled",
@@ -1037,7 +1047,8 @@
     "project": "https://github.com/CVI-SZU/DEGSTalk",
     "figure": "First method for realistic talking face synthesis that preserves long hair dynamics via 3D Gaussian Splatting.",
     "abstract": "DEGSTalk is a novel method for synthesizing talking face videos that effectively captures fine facial features and long hair dynamics. It utilizes Deformable Pre-Embedding Gaussian Fields to enhance realism in facial expressions and hair motion. The approach demonstrates significant improvements in synthesis quality, particularly for complex dynamics involving hair. Code will be available at https",
-    "figureUrl": "https://opengraph.githubassets.com/897ac7f600d57ad889074485bd593230d4bc2f8d4f4df5be7efa9f42376125ea/CVI-SZU/DEGSTalk"
+    "figureUrl": "https://opengraph.githubassets.com/897ac7f600d57ad889074485bd593230d4bc2f8d4f4df5be7efa9f42376125ea/CVI-SZU/DEGSTalk",
+    "codeUrl": "https://github.com/CVI-SZU/DEGSTalk"
   },
   {
     "id": "augmented-mass-spring",
@@ -1096,7 +1107,8 @@
     "project": "https://xiaokunsun.github.io/StrandHead.github.io/",
     "figure": "First text-driven method for generating 3D hair strands and disentangled head avatars using human-centric priors.",
     "abstract": "StrandHead is a novel method that generates 3D hair strands and disentangled head avatars from text prompts, overcoming data limitations. It utilizes a meshing approach guided by strand geometry and incorporates human-centric priors for realistic strand generation. The method achieves state-of-the-art performance in text to strand generation and allows for strand-level editing on avatars.",
-    "figureUrl": "https://xiaokunsun.github.io/StrandHead.github.io/static/images/teaser.png"
+    "figureUrl": "https://xiaokunsun.github.io/StrandHead.github.io/static/images/teaser.png",
+    "codeUrl": "https://github.com/XiaokunSun/StrandHead"
   },
   {
     "id": "drive",
@@ -1258,7 +1270,8 @@
     "project": "https://cs.yale.edu/homes/che/projects/perm/",
     "figure": "First parametric representation for multi-style 3D hair modeling via PCA-based strand representation.",
     "abstract": "Perm introduces a learned parametric representation for 3D hair that separates global structure from local curl patterns using a PCA-based strand approach. This allows for precise editing and control in hair-related applications, including single-view reconstruction and hairstyle editing. The model is validated through extensive experiments and is available for various tasks.",
-    "figureUrl": "https://cs.yale.edu/homes/che/projects/perm/assets/teaser.png"
+    "figureUrl": "https://cs.yale.edu/homes/che/projects/perm/assets/teaser.png",
+    "codeUrl": "https://github.com/c-he/perm"
   },
   {
     "id": "realtimelodhair",
@@ -1320,7 +1333,8 @@
     "project": "https://keyuwu-cs.github.io/MonoHair/",
     "figure": "First high-fidelity hair reconstruction from monocular video via Patch-based Multi-View Optimization.",
     "abstract": "MonoHair presents a framework for high-fidelity hair reconstruction from monocular video, addressing challenges in existing methods. It separates the modeling process into exterior reconstruction using PMVO and interior structure inference, enhancing detail capture and accuracy. The method shows robustness across various hairstyles and achieves state-of-the-art results.",
-    "figureUrl": "https://keyuwu-cs.github.io/MonoHair/static/images/pipeline.png"
+    "figureUrl": "https://keyuwu-cs.github.io/MonoHair/static/images/pipeline.png",
+    "codeUrl": "https://github.com/KeyuWu-CS/MonoHair"
   },
   {
     "id": "drhair",
@@ -1404,11 +1418,12 @@
       "Hair"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2312.11666",
     "project": "https://haar.is.tue.mpg.de/",
     "figure": "First text-guided generative model for 3D hairstyles using strand representation.",
-    "abstract": "HAAR is a novel strand-based generative model that creates 3D human hairstyles from textual inputs. Unlike existing methods that rely on 2D priors, HAAR uses 3D hair strands, enabling the reconstruction of highly occluded structures suitable for production-level graphics. The model is trained using a latent diffusion approach in a common hairstyle UV space, demonstrating superior capabilities in h"
+    "abstract": "HAAR is a novel strand-based generative model that creates 3D human hairstyles from textual inputs. Unlike existing methods that rely on 2D priors, HAAR uses 3D hair strands, enabling the reconstruction of highly occluded structures suitable for production-level graphics. The model is trained using a latent diffusion approach in a common hairstyle UV space, demonstrating superior capabilities in h",
+    "codeUrl": "https://github.com/Vanessik/HAAR"
   },
   {
     "id": "localappearancemodel",
@@ -1517,7 +1532,7 @@
     ],
     "year": 2023,
     "month": 10,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2023,
     "tags": [
       "Editing",
@@ -1586,12 +1601,13 @@
       "Hair"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2303.02700",
     "project": "https://paulyzheng.github.io/research/hairstep/",
     "figure": "First method that uses strand and depth maps for single-view 3D hair modeling.",
     "abstract": "This paper addresses single-view 3D hair modeling by proposing HairStep, an intermediate representation combining strand and depth maps. It aims to bridge the domain gap between synthetic and real data, achieving state-of-the-art results in 3D hair reconstruction using a newly collected dataset of portrait images.",
-    "figureUrl": "https://paulyzheng.github.io/research/hairstep/img/teaser.jpg"
+    "figureUrl": "https://paulyzheng.github.io/research/hairstep/img/teaser.jpg",
+    "codeUrl": "https://github.com/GAP-LAB-CUHK-SZ/HairStep"
   },
   {
     "id": "fast-real-time-shading",
@@ -1701,7 +1717,8 @@
     "project": "https://github.com/ueda0319/neddf",
     "figure": "First method to extend distance field formulation to shapes with no explicit boundary surface, such as fur.",
     "abstract": "This paper introduces Neural Density-Distance Field (NeDDF), a 3D representation that combines distance and density fields for improved localization and view synthesis. It effectively handles shapes without explicit boundaries, like fur, enabling high-quality registration and fast convergence from sparse point clouds. The method shows competitive results with existing techniques like NeRF.",
-    "figureUrl": "https://opengraph.githubassets.com/1fec50f98b9d0dba69ec5d22751d6d42345557fae0fde9f48a080b451c69cab1/ueda0319/neddf"
+    "figureUrl": "https://opengraph.githubassets.com/1fec50f98b9d0dba69ec5d22751d6d42345557fae0fde9f48a080b451c69cab1/ueda0319/neddf",
+    "codeUrl": "https://github.com/ueda0319/neddf"
   },
   {
     "id": "neural-strands",
