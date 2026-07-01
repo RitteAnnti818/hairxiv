@@ -110,7 +110,8 @@
     "arxiv": "https://arxiv.org/abs/2605.08824",
     "project": "https://haiminluo.github.io/hairgpt/",
     "figure": "First strand-centric framework for realistic 3D hairstyle synthesis via autoregressive modeling",
-    "abstract": "HairGPT is a novel framework that models 3D hairstyle synthesis by treating hair strands as generative primitives. It employs a dual-decoupled autoregressive approach, allowing for structured and semantically controllable hair generation. The method supports compositional editing and adapts to various styles, enhancing the digital grooming process."
+    "abstract": "HairGPT is a novel framework that models 3D hairstyle synthesis by treating hair strands as generative primitives. It employs a dual-decoupled autoregressive approach, allowing for structured and semantically controllable hair generation. The method supports compositional editing and adapts to various styles, enhancing the digital grooming process.",
+    "figureUrl": "https://haiminluo.github.io/publication/hairgpt/teaser_crop.png"
   },
   {
     "id": "physhead",
@@ -738,7 +739,8 @@
     "arxiv": "https://arxiv.org/abs/2507.19481",
     "project": "https://bjkim95.github.io/haircup/",
     "figure": "First universal prior model for 3D head avatars that separates face and hair representations.",
-    "abstract": "HairCUP introduces a universal prior model for 3D head avatars that explicitly separates face and hair representations, addressing limitations of holistic models. It enables flexible applications like hairstyle swapping and can be fine-tuned with monocular captures for high-fidelity avatar generation."
+    "abstract": "HairCUP introduces a universal prior model for 3D head avatars that explicitly separates face and hair representations, addressing limitations of holistic models. It enables flexible applications like hairstyle swapping and can be fine-tuned with monocular captures for high-fidelity avatar generation.",
+    "figureUrl": "https://bjkim95.github.io/haircup/static/images/haircup_banner_200.jpg"
   },
   {
     "id": "unsupervised-braided-hair-reconstruction",
@@ -1588,7 +1590,8 @@
     "arxiv": "https://arxiv.org/abs/2303.02700",
     "project": "https://paulyzheng.github.io/research/hairstep/",
     "figure": "First method that uses strand and depth maps for single-view 3D hair modeling.",
-    "abstract": "This paper addresses single-view 3D hair modeling by proposing HairStep, an intermediate representation combining strand and depth maps. It aims to bridge the domain gap between synthetic and real data, achieving state-of-the-art results in 3D hair reconstruction using a newly collected dataset of portrait images."
+    "abstract": "This paper addresses single-view 3D hair modeling by proposing HairStep, an intermediate representation combining strand and depth maps. It aims to bridge the domain gap between synthetic and real data, achieving state-of-the-art results in 3D hair reconstruction using a newly collected dataset of portrait images.",
+    "figureUrl": "https://paulyzheng.github.io/research/hairstep/img/teaser.jpg"
   },
   {
     "id": "fast-real-time-shading",
